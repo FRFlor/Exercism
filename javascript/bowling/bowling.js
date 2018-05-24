@@ -42,15 +42,7 @@ class Bowling {
 
     allFramesAreComplete() {
 
-        // Question:
-        //     return (this.frames.find(frame => frame.isInProgress()) === null); Didn't work....
-        for (let i = 0; i < MAX_PIN_COUNT; i++) {
-            if (this.frames[i].isInProgress()) {
-                return false;
-            }
-        }
-
-        return true;
+        return (this.frames.find(frame => frame.isInProgress()) === undefined);
     }
 
     isPreviousFrameStillInBaseRolls(currentFrameIndex) {
