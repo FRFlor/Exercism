@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a967f80d-37fe-4917-a6dd-d0e0ee368687" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/bowling.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bowling.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bowling.js" beforeDir="false" afterPath="$PROJECT_DIR$/bowling.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +18,8 @@
       <file leaf-file-name="bowling.spec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bowling.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1868">
-              <caret line="202" column="6" selection-start-line="202" selection-start-column="6" selection-end-line="202" selection-end-column="6" />
+            <state relative-caret-position="138">
+              <caret line="207" selection-start-line="207" selection-end-line="207" />
             </state>
           </provider>
         </entry>
@@ -30,8 +27,8 @@
       <file leaf-file-name="bowling.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bowling.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+            <state relative-caret-position="111">
+              <caret line="158" column="108" selection-start-line="158" selection-start-column="108" selection-end-line="158" selection-end-column="108" />
             </state>
           </provider>
         </entry>
@@ -77,6 +74,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,14 +86,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,44 +137,47 @@
       <workItem from="1527102902773" duration="4333000" />
       <workItem from="1527108546501" duration="3293000" />
       <workItem from="1527121722565" duration="40000" />
-      <workItem from="1527121876800" duration="12905000" />
+      <workItem from="1527121876800" duration="13937000" />
+      <workItem from="1527186745724" duration="481000" />
+      <workItem from="1527189022332" duration="353000" />
+      <workItem from="1527189395355" duration="3109000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Exercism - 2018.05.24 at 08h 38m 02s.xml">
-      <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
-    </history-entry>
-    <history-entry file="Exercism - 2018.05.24 at 08h 40m 56s.xml">
-      <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
-    </history-entry>
-    <history-entry file="Exercism - 2018.05.24 at 08h 40m 58s.xml">
-      <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
-    </history-entry>
-    <history-entry file="Exercism - 2018.05.24 at 08h 40m 59s.xml">
-      <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
-    </history-entry>
-    <history-entry file="Exercism - 2018.05.24 at 08h 41m 07s.xml">
-      <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
-    </history-entry>
-    <history-entry file="Exercism - 2018.05.24 at 08h 45m 26s.xml">
-      <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
-    </history-entry>
-    <history-entry file="Exercism - 2018.05.24 at 08h 45m 28s.xml">
-      <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
-    </history-entry>
-    <history-entry file="Exercism - 2018.05.24 at 08h 45m 54s.xml">
-      <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
-    </history-entry>
     <history-entry file="Exercism - 2018.05.24 at 09h 02m 27s.xml">
       <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
     </history-entry>
     <history-entry file="Exercism - 2018.05.24 at 09h 08m 17s.xml">
       <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
     </history-entry>
+    <history-entry file="Exercism - 2018.05.24 at 09h 08m 57s.xml">
+      <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
+    </history-entry>
+    <history-entry file="Exercism - 2018.05.24 at 09h 11m 18s.xml">
+      <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
+    </history-entry>
+    <history-entry file="Exercism - 2018.05.24 at 15h 56m 21s.xml">
+      <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
+    </history-entry>
+    <history-entry file="Exercism - 2018.05.24 at 15h 56m 22s.xml">
+      <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
+    </history-entry>
+    <history-entry file="Exercism - 2018.05.24 at 15h 56m 23s.xml">
+      <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
+    </history-entry>
+    <history-entry file="Exercism - 2018.05.24 at 15h 56m 25s.xml">
+      <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
+    </history-entry>
+    <history-entry file="Exercism - 2018.05.24 at 15h 56m 30s.xml">
+      <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
+    </history-entry>
+    <history-entry file="Exercism - 2018.05.24 at 15h 59m 51s.xml">
+      <configuration name="Exercism" configurationId="JavascriptTestRunnerJasmine" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21804000" />
+    <option name="totallyTimeSpent" value="26779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="739" extended-state="6" />
@@ -186,17 +186,18 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50078124" side_tool="true" weight="0.4807396" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32932332" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32819724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.48120302" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49921876" visible="true" weight="0.4807396" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -209,6 +210,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -282,6 +288,48 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bowling.spec.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4646">
+          <caret line="202" column="6" selection-start-line="202" selection-start-column="6" selection-end-line="202" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bowling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bowling.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4646">
+          <caret line="202" column="6" selection-start-line="202" selection-start-column="6" selection-end-line="202" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bowling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bowling.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4646">
+          <caret line="202" column="6" selection-start-line="202" selection-start-column="6" selection-end-line="202" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bowling.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bowling.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2145">
           <caret line="143" column="12" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="86" />
         </state>
@@ -352,15 +400,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bowling.spec.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1868">
-          <caret line="202" column="6" selection-start-line="202" selection-start-column="6" selection-end-line="202" selection-end-column="6" />
+        <state relative-caret-position="138">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bowling.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        <state relative-caret-position="111">
+          <caret line="158" column="108" selection-start-line="158" selection-start-column="108" selection-end-line="158" selection-end-column="108" />
         </state>
       </provider>
     </entry>
