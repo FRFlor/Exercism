@@ -32,8 +32,7 @@ class Bowling {
         let newRoll = new Roll(rollValue);
 
         for (let frameIndex = 0; frameIndex < this.frames.length; frameIndex++) {
-            if (this.isPreviousFrameEmpty(frameIndex) ||
-                this.isPreviousFrameStillInBaseRolls(frameIndex)) {
+            if (this.isPreviousFrameStillInBaseRolls(frameIndex)) {
 
                 return;
             }
@@ -52,10 +51,6 @@ class Bowling {
         }
 
         return true;
-    }
-
-    isPreviousFrameEmpty(currentFrameIndex) {
-        return currentFrameIndex !== 0 && this.frames[currentFrameIndex - 1].isEmpty();
     }
 
     isPreviousFrameStillInBaseRolls(currentFrameIndex) {
