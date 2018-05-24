@@ -32,11 +32,12 @@ class Bowling {
         let newRoll = new Roll(rollValue);
 
         for (let frameIndex = 0; frameIndex < this.frames.length; frameIndex++) {
-            if (this.previousFrameIsNotEmpty(frameIndex) &&
-                this.previousFrameHasFinishedBaseRolls(frameIndex)) {
+            if (this.isPreviousFrameEmpty(frameIndex) ||
+                this.isPreviousFrameStillInBaseRolls(frameIndex)) {
 
-                this.frames[frameIndex].tryInsertNewRoll(newRoll);
+                return;
             }
+            this.frames[frameIndex].tryInsertNewRoll(newRoll);
         }
     }
 
@@ -53,12 +54,12 @@ class Bowling {
         return true;
     }
 
-    previousFrameIsNotEmpty(currentFrameIndex) {
-        return currentFrameIndex === 0 || !this.frames[currentFrameIndex - 1].isEmpty();
+    isPreviousFrameEmpty(currentFrameIndex) {
+        return currentFrameIndex !== 0 && this.frames[currentFrameIndex - 1].isEmpty();
     }
 
-    previousFrameHasFinishedBaseRolls(currentFrameIndex) {
-        return currentFrameIndex === 0 || this.frames[currentFrameIndex - 1].hasFinishedBaseRolls();
+    isPreviousFrameStillInBaseRolls(currentFrameIndex) {
+        return currentFrameIndex !== 0 && this.frames[currentFrameIndex - 1].awaitsBaseRolls();
     }
 
 }
