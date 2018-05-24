@@ -33,7 +33,7 @@ class Bowling {
 	}
 
 	allFramesAreComplete() {
-		return ( this.frames.find(frame => frame.isInProgress()) === undefined );
+		return this.frames.find(frame => frame.isInProgress()) === undefined;
 	}
 
 	isPreviousFrameStillInBaseRolls(currentFrameIndex) {
@@ -64,8 +64,7 @@ class Roll {
 	}
 
 	makesSpareWith(previousRoll) {
-		return this.value !== 0 && this.value + previousRoll.value ===
-				MAX_PIN_COUNT;
+		return this.value !== 0 && this.value + previousRoll.value === MAX_PIN_COUNT;
 	}
 }
 
@@ -79,8 +78,7 @@ class Frame {
 	}
 
 	cannotReceiveRoll(newRoll) {
-		return ( this.isComplete() ||
-				( this.awaitsBaseRolls() && newRoll.isBonusRoll() ) );
+		return this.isComplete() || ( this.awaitsBaseRolls() && newRoll.isBonusRoll() );
 	}
 
 	tryInsertNewRoll(newRoll) {
@@ -154,10 +152,10 @@ class Frame {
 	}
 
 	isInvalidAdditionalRoll(newRoll) {
-		return ( this.rolls.length % 2 !== 0 &&   // This roll is the last of the pair (A frame may have up to 2 pairs)
+		return this.rolls.length % 2 !== 0 &&   // This roll is the last of the pair (A frame may have up to 2 pairs)
 				!this.previousRoll.isStrike() &&
-				newRoll.value + this.previousRoll.value > MAX_PIN_COUNT ); // The sum of the rolls exceeds the total
-																																	// number of pins
+				newRoll.value + this.previousRoll.value > MAX_PIN_COUNT; // The sum of the rolls exceeds the total
+																																 // number of pins
 	}
 
 	score() {
