@@ -195,7 +195,7 @@ class Frame {
 
         return (this.rolls.length % 2 !== 0 &&   // This roll is the last of the pair (A frame may have up to 2 pairs)
             !this.previousRoll.isStrike() &&
-            newRoll.value + this.previousRoll.value > 10); // The sum of the rolls exceeds the total number of pins
+            newRoll.value + this.previousRoll.value > MAX_PIN_COUNT); // The sum of the rolls exceeds the total number of pins
     }
 
     score() {
