@@ -71,7 +71,7 @@ class Roll {
         if (rollValue < 0) {
             throw new Error('Negative roll is invalid');
         }
-        ;
+
 
         if (rollValue > MAX_PIN_COUNT) {
             throw new Error('Pin count exceeds pins on the lane');
